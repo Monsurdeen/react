@@ -15,7 +15,7 @@ export default function Header({theme}) {
     return (
         <div>
            <div className="cart">
-<AliceCarousel autoPlay autoPlayInterval={3000} infinite  disableDotsControls={true} dots={true} 
+<AliceCarousel autoPlay autoPlayInterval={3000} infinite  disableDotsControls={true} dots={true}  disableButtonControls{true}
       buttons={false}className="owl-carousel">
     <div className="bg1" />
     <div className="bg2" />
