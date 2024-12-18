@@ -1,6 +1,5 @@
-import { React } from "react"
+import  React  from "react"
 import Image from "next/image"
-import ReactDOM from 'react-dom'
 import AliceCarousel from "react-alice-carousel"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon, faToggleOff,faSun, faBars, faTimes, faPhone, faComputerMouse, faDownload, } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +14,7 @@ export default function Header({theme}) {
     return (
         <div>
            <div className="cart">
-<AliceCarousel autoPlay autoPlayInterval={3000} infinite  disableDotsControls={true} dots={true}  disableButtonControls{true}
+<AliceCarousel autoPlay autoPlayInterval={3000} infinite  disableDotsControls={true} dots={true}  disableButtonControls={true}
       buttons={false}className="owl-carousel">
     <div className="bg1" />
     <div className="bg2" />
@@ -85,5 +84,5 @@ export default function Header({theme}) {
                 />
             </section>
         </div>
-    )
+    );
 }
